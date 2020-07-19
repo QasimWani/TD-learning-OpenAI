@@ -286,7 +286,7 @@ def run_optimal_policy(agent, Q_optimal, num_episodes, td_type = 'sarsa', epsilo
     
     
 #Main
-if __name__ == '__main__':
+if (__name__ == '__main__'):
     agent = Agent(env)
     print(agent.env.render()) #renders the initial state
     # obtain the estimated optimal policy and corresponding action-value function
